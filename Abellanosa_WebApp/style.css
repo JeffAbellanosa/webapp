@@ -1,0 +1,215 @@
+/******login page css*******/
+body {
+  background-image:url('Images/BG.png'); 
+  background-repeat:repeat;
+  font-family: Verdana, sans-serif; 
+}
+
+#login {
+  background-color: white;
+  border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#loginbutton {
+  background-color: #818181;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#loginbutton:hover {
+  opacity: 0.8;
+}
+
+.helpbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 200px;
+
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+#login{
+	position: fixed;
+	left: 25%;
+	top: 20%;
+	width: 50%;
+}
+
+#login h2{
+	padding: 10px;
+}
+
+#button{
+	display: block;
+	padding: 5px;
+	background-color: #818181;
+	color: white;
+}
+
+#log_content{
+	display: none;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .helpbtn {
+     width: 100%;
+  }
+}
+
+/******WEB APP CSS*****/
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#active{
+	color: #f1f1f1;
+	background-color: #818181;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#navbutton{
+	position: fixed;
+	top: 40%;
+	left: 0px;
+	font-size:20px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+    color: #818181;
+    writing-mode: vertical-lr;
+}
+
+#header{
+  margin-top: -30px;
+  margin-left: -29px;
+  width: 99.4%;
+  padding: 30px;
+	text-align: center;
+	color: white;
+  border: 2px solid #999999;
+  background-image: linear-gradient(to right, #000000 , #313131);
+}
+
+#body{
+  padding: 10px;
+  font-size: 20px;
+  position: relative;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: #EEEEEE;
+  color: black;
+  width: 80%;
+  left: 10%;
+}
+
+#footer{
+  margin-left: -29px;
+  margin-bottom: -29px;
+  width: 99.4%;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  border: 2px solid #999999;
+  background-image: linear-gradient(to right, #000000 , #313131);
+}
+
+#table{
+  width: 90%;
+  left: 5%;
+  position: relative;
+}
+
+#options{
+  text-align: center;
+}
+
+#features{
+  overflow: unset;
+  column-width: 50%;
+}
+
+#hi{
+  color:#818181;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
